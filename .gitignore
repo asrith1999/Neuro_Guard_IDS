@@ -1,0 +1,25 @@
+# Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local credentials and environment variables
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Locally generated models and result files
+models/*.joblib
+models/*.json
+data/predictions.csv
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
